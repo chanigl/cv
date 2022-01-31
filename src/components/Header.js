@@ -1,12 +1,18 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 
-const header = () => {
-  return <div>
-        <div id = "headerT"> Microsoft Corporation </div>
-        <div id = "header"> Herzelia Israel  </div>
-        <div className='img'><img src="micro.jpg"/></div>
-        <hr/>
-  </div>;
+const header = (/*{title, minTitle}*/) => {
+  return <div className='headerTitle'>
+            <div className='titleText'>
+              <h1> Microsoft Corporation</h1>
+              <h2>  Herzelia Israel  </h2>
+            </div>
+            <div className='img'><img src="micro.jpg"/></div>
+          </div>;
 };
+
+/*Headers.defaultProps={
+  title :' Microsoft Corporation', 
+  minTitle: ' Herzelia Israel'
+}*/
 
 export default header;

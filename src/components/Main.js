@@ -61,3 +61,17 @@ const Main = (props) => {
 };
 
 export {Main,section};
+
+
+
+<div  className="app">
+{section.map((el,i)=>
+  <Main
+  key={i}
+  title={el.title}
+  secTitle={el.secTitle}
+  content={el.content}
+  />
+  )}
+  </div>
+

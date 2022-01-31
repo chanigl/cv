@@ -14,49 +14,57 @@ code {
 body{
   background-image: url("../public/background.jpg");
 }
-#headerT{
+.headerTitle{
   color: #fff;
-  font-size: xx-large;
-  text-align: center;
   margin-top: 50px;
+  display: flex;
 }
-#header{
-  color: #fff;
-  font-size: large;
+.titleText{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-size: x-large;
   text-align: center;
-}
-.img{
-  margin-left: 1150px;
 }
 img{
-  width:  25%
+  width: 25%;
 }
-hr{
-  width: 40%;
+.img{
+  width: 25%;
 }
-.main{
+.part{
   border: 5px cornflowerblue dashed;
   width: 30%;
   background-color:#fff;
   margin-top: 5px;
   margin-left: 100px;
   border-radius: 2%;
+  margin-bottom: 30px;
 }
-h2{
-  background-color: rgb(168, 168, 168);
-  border-radius: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: center;
-}
-.app{
+.sec{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-left: 150px;
-  height: 800px;
+  height: 1300px;
+  margin: auto 100px;
 }
 .footer{
   background-color: gray;
+}
+.secItemTitle{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: auto 10px auto 10px;
+}
+.parTitle{
+  background-color: rgb(168, 168, 168);
+  border-radius: 15px;
+  margin: auto 10px auto 10px;
+  text-align: center;
+  display: flex;
+}
+span{
+  display: flex;
 }
 
