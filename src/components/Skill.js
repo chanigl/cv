@@ -19,8 +19,8 @@ const Skill = ({skill}) => {
             <div className="stars">
                 {skilList.map(skillItem=>
                     <div key={skillItem.id}>
-                    <FontAwesomeIcon icon={['fas', 'circle']}/>
-                </div>
+                    <FontAwesomeIcon icon={[skillItem.type, 'circle']}/>
+                    </div>
                     )}
             </div>
         </div>);
