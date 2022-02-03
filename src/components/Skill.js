@@ -13,7 +13,7 @@ const initSkilList=(starSkill)=>{
 }
 
 const Skill = ({skill}) => {
-    const skilList= initSkilList(skill.starSkill)
+    const skilList= initSkilList(skill.skillSrats)
   return (<div className="secSkill">
             <div>{skill.skillTitle}</div>
             <div className="stars">

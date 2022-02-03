@@ -62,7 +62,7 @@ const sectionList = [
   {
       id: 3,
       sectionTitle:"HOBBIES",
-      sectionIcon:"",
+      sectionIcon:["fas", "crown"],
       isSectionItem: false,
       isSkill: false,
       sectionText:"Explain the job that you have done and the resiltes that you have got!"
@@ -70,7 +70,7 @@ const sectionList = [
   {
       id: 4,
       sectionTitle:"PROFILE",
-      sectionIcon:"",
+      sectionIcon:["fas","user-tie"],
       isSectionItem: false,
       isSkill: false,
       sectionText:"Explain the job that you have done and the resiltes that you have got!"   
@@ -78,7 +78,7 @@ const sectionList = [
   {
       id: 5,
       sectionTitle:"SKILL",
-      sectionIcon:"",
+      sectionIcon:["fas","cog"],
       isSectionItem: false,
       isSkill: true,
       skills:[
@@ -107,7 +107,7 @@ const sectionList = [
   {
       id: 6,
       sectionTitle:"PERSONALITY",
-      sectionIcon:"",
+      sectionIcon:["fas","user-plus"],
       isSectionItem: false,
       isSkill: true,
       skills:[
@@ -136,7 +136,7 @@ const sectionList = [
   {
       id: 7,
       sectionTitle:"LANGUAGES",
-      sectionIcon:"",
+      sectionIcon:["fas","globe"],
       isSectionItem: false,
       isSkill: true,
       skills:[
